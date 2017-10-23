@@ -17,10 +17,10 @@
 
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common ViperOS stuff.
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ido
+PRODUCT_NAME := viper_ido
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
